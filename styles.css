@@ -44,7 +44,7 @@ input{
 }
 div#items{
     margin: 20px;
-    font-size: 0.6rem;
+    font-size: 1rem;
 
     
 }
@@ -78,6 +78,7 @@ div#items .done{
 
 div#items p{
     width: 100px;
+    height: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
