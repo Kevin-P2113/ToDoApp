@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; margin: 20px">
+      ToDo App
+    </div>
+    <div class="container">
+      <span class="container-list">
+        <div class="input">
+          <input type="text" id="item" /><button
+            id="add-item"
+            onclick="handleAddItem()"
+          >
+            Add item
+          </button>
+        </div>
+        <div id="items"></div>
+      </span>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+<!-- dom manipulatoin : https://www.w3schools.com/jsref/met_node_appendchild.asp -->
+<!-- handling onclick events : https://www.w3schools.com/JSREF/event_onclick.asp  -->
+<!-- removing an element : https://www.w3schools.com/jsref/met_element_remove.asp -->

@@ -1,0 +1,83 @@
+
+body{
+    height: 100vh;
+    background: rgb(151,105,181);
+    background: linear-gradient(90deg, rgba(151,105,181,1) 0%, rgba(249,110,110,1) 50%, rgba(249,183,90,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+input{
+    border-radius:10px ;
+    border-style: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#add-item{
+    margin: 5px;
+    background-color: #4747e6;
+    border-radius: 10px;
+    border:1px solid white
+}
+
+
+
+.container-list{
+    padding: 10px;
+    background-color: #edf2ef;
+    border-radius: 10px;
+
+    
+}
+div#items{
+    margin: 20px;
+    font-size: 0.6rem;
+
+    
+}
+div#items > div{
+    border: 1px solid rgb(239, 197, 197);
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+
+}
+
+div#items>*>*{
+    margin: 5px;
+    
+}
+
+div#items .delete{
+    background-color: rgb(236, 80, 37);
+    border-radius: 10px;
+    border-style: none;
+}
+
+div#items .done{
+    background-color: rgb(176, 214, 36);
+    border-radius: 10px;
+    border-style: none;
+}
+
+
+div#items p{
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
